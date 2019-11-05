@@ -1,0 +1,13 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  min-height: 10vh;
+}
+
+main {
+  flex-grow: 1;
+}
